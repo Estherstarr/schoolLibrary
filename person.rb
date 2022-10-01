@@ -1,5 +1,3 @@
-require_relative 'nameable'
-
 # Defines a person class
 class Person < Nameable
   attr_reader :id, :rentals, :parent_permission
@@ -11,20 +9,10 @@ class Person < Nameable
     @age = age
     @name = name
     @parent_permission = parent_permission
-    @rentals = []
-  end
-
-  def correct_name
-    @name
   end
 
   def can_use_services?
     of_age? || @parent_permission
-  end
-
-  def add_rental(rental)
-    @rentals << rental
-    rental.person = self
   end
 
   private
