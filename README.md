@@ -23,7 +23,7 @@ $ irb
 To clone the project:
 
 ```bash
-$ git clone https://github.com/Estherstarr/school-library.git
+$ git clone https://github.com/Estherstarr/schoolLibrary.git
 $ cd school-library
 ```
 
