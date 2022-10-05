@@ -21,4 +21,5 @@ class Teacher < Person
       parent_permission: true
     }
   end
+
 end
