@@ -1,4 +1,3 @@
-
 # Defines a Rental class
 class Rental
   attr_accessor :date

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 source 'https://rubygems.org'
 
 git_source(:github) { |_school_library| "https://github.com/#{school - library}" }
