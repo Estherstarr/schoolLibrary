@@ -1,4 +1,3 @@
-
 require_relative 'person'
 
 # Defines a student class

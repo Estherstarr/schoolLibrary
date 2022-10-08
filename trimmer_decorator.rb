@@ -1,4 +1,3 @@
-
 require_relative 'base_decorator'
 
 # Defines a trimmer_decorator class
