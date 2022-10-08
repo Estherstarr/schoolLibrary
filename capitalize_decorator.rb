@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'base_decorator'
 
 # Defines a capitalize_decorator class

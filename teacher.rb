@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'person'
 
 # Defines a teacher class
@@ -21,5 +23,4 @@ class Teacher < Person
       parent_permission: true
     }
   end
-
 end

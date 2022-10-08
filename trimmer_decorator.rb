@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'base_decorator'
 
 # Defines a trimmer_decorator class

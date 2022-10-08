@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Defines a Rental class
 class Rental
   attr_accessor :date
@@ -25,6 +27,5 @@ class Rental
       book: book.to_h,
       person: person.to_h
     }
-  
   end
 end

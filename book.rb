@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Defines a Book class
 class Book
   attr_accessor :title, :author
@@ -13,7 +15,7 @@ class Book
     @rentals << rental
     rental.book = self
   end
-  
+
   def to_h
     {
       title: title,
